@@ -1,0 +1,246 @@
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+    font-family: cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(66, 67, 66);
+    background: linear-gradient(90deg, rgb(48, 49, 48) 0%, rgba(17,23,18,1) 29%, rgb(4, 6, 4) 61%, rgb(61, 63, 60) 91%);
+}
+.imagen-logo{
+    display: flex;
+    justify-content: center;
+}
+.imagen-logo img{
+    width: 430px;
+    height: 110px;
+    box-shadow: none;
+}
+
+/* NAVEGACION */
+.navegacion{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 24px;
+    font-family: cursive;
+    font-size: 18px;
+}
+h1{
+    padding: 16px;
+}
+.normal{
+    width: 70%;
+    margin: 0px auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+li{
+    margin: 10px 30px;
+}
+li a{
+    padding: 3px;
+    color: black;
+}
+li a:hover{
+    background-color: rgba(185, 71, 71, 0.705);
+    border-radius: 5px;
+}
+.boton-menu{
+    display: none;
+    font-size: 28px ;
+    margin: 0px auto;
+    padding: 10px;
+    cursor: pointer;
+    background-color:rgb(217, 67, 67) ;
+    border-style: none;
+}
+.imenu{
+    font-size: 30px;
+}
+@media screen and (max-width: 768px){
+    .boton-menu{
+        display: block;
+    }
+    .normal{
+        display: none;
+    }
+    .menu-movil{
+        display: block;
+    }
+}
+
+
+/*BOTON TOP  */
+.oculto{
+    display: none;
+}
+.active{
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    position: fixed;
+    background-color: rgb(217, 67, 67);
+    padding: 14px;
+    right: 5%;
+    bottom: 5%;
+    border-radius: 50%;
+}
+.material-icons-outlined:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+/* TEXTO MAIN */
+.texto-main{
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px 24px ;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px){
+    .texto-main{
+        width: 70%;
+        padding: 40px 18px;
+    }
+}
+
+/* ESTILOS SECCION LIBROS */
+.coleccion{
+    text-align: center;
+    font-weight: bold;
+    font-family:cursive;
+    width: 100%;
+    padding: 24px;
+    background-color: rgb(40, 40, 40);
+}
+    
+.div-img{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 24px;
+}
+    
+h2{
+    font-size: 2.0rem;
+    color: white;
+    padding: 20px;
+}
+
+img{
+    display: block;
+    width: 280px;
+    height: 420px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 3px 14px 15px rgba(63, 63, 63, 0.85); 
+    box-shadow: 0px 3px 14px 10px rgba(0, 0, 0, 0.85);
+}
+
+p{
+    color: white;
+    padding-bottom: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* BACKGROUND  */
+.bg-fixed-1{
+    height: 400px;
+    background-image: url(img/fondo-01.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-fixed-2{
+    height: 400px;
+    background-image: url(img/lich.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-fixed-3{
+    height: 400px;
+    background-image: url(img/WBeuKX.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-fixed-4{
+    height: 400px;
+    background-image: url(img/LolthBio.webp);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-fixed-5{
+    height: 400px;
+    background-image: url(img/heroe.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-fixed-6{
+    height: 400px;
+    background-image: url(img/bg-generation.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-fixed-7{
+    height: 400px;
+    background-image: url(img/bg-arch.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-fixed-8{
+    height: 400px;
+    background-image: url(img/gb21.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-fixed-9{
+    height: 400px;
+    background-image: url(img/nRBVuZ.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-fixed-10{
+    height: 400px;
+    background-image: url(img/wulfgar.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.menu-movil{
+   align-items: flex-start;
+   display: flex;
+   flex-direction: column;
+   list-style: none;
+}
+
+footer{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+    
+
+    
+
