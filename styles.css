@@ -242,9 +242,12 @@ footer{
     align-items: center;
 }
 
+.logo-img{
+    width: 90px;
+    height: 90px;
+}
 
-
-    
-
-    
-
+.text-footer{
+    align-items: center;
+    height: 25px;
+}
