@@ -1,6 +1,6 @@
 *{
     padding: 0; margin: 0; box-sizing: border-box;
-    font-family: cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -8,6 +8,7 @@ html{
 body{
     background: rgb(66, 67, 66);
     background: linear-gradient(90deg, rgb(48, 49, 48) 0%, rgba(17,23,18,1) 29%, rgb(4, 6, 4) 61%, rgb(61, 63, 60) 91%);
+    font-family: 'Ubuntu', sans-serif;
 }
 .imagen-logo{
     display: flex;
@@ -29,6 +30,7 @@ body{
 }
 h1{
     padding: 16px;
+    text-shadow: 4px 4px rgba(138, 138, 138, 0.6);
 }
 .normal{
     width: 70%;
@@ -40,6 +42,7 @@ h1{
 }
 li{
     margin: 10px 30px;
+    text-align: start;
 }
 li a{
     padding: 3px;
@@ -101,11 +104,12 @@ li a:hover{
     margin-right: auto;
     padding: 48px 24px ;
     font-size: 1.2rem;
+    line-height: 28px;
 }
 
 @media screen and (max-width: 768px){
     .texto-main{
-        width: 70%;
+        width: 80%;
         padding: 40px 18px;
     }
 }
